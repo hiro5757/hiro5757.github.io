@@ -137,7 +137,7 @@ footer small
 
 #index
 {
-    background-image: url(../image/cafe.jpg);
+    background-image: url(cafe.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -148,7 +148,7 @@ footer small
 /*history始まり*/
 #history
 {
-    background-image: url(../image/cafe%20history.jpg);
+    background-image: url(cafe%20history.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
@@ -207,7 +207,7 @@ h2
 /*a kind of 始まり*/
 #kind
 {
-    background-image: url(../image/coffee%20cup.jpg);
+    background-image: url(coffee%20cup.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
@@ -293,7 +293,7 @@ h2
 /*garnish始まり*/
 #garnish
 {
-    background-image:url(../image/cookie.jpg);
+    background-image:url(cookie.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
