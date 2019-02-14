@@ -1,0 +1,354 @@
+@charset "utf-8";
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+    font-size: 15px;
+    line-height: 2;
+    
+}
+
+p,h1,h2,h3,h4,h5,h6
+{
+    margin-top: 0;
+}
+
+img
+{
+    vertical-align: bottom;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+a:visited
+{
+    color: black;
+}
+
+/*header始まり*/
+header
+{
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
+  
+}
+/*header終了*/
+
+ .logo
+{
+    float: left;
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+}
+.logo a
+{
+    color: white;
+}
+
+/*global-nav始まり*/
+.global-nav
+{
+    float: right;
+    margin-top: 60px;
+}
+.global-nav li
+{
+    float: left;
+    margin: 0 25px;
+    font-size: 20px;
+    list-style: none;
+    font-family: 'Permanent Marker', cursive;
+}
+.global-nav li a
+{
+    color: white;
+}
+.global-nav li a:hover
+{
+    border-bottom: 2px solid white;
+    padding: 5px;
+    text-decoration: none;
+}
+/*global-nav終了*/
+
+/*index始まり*/
+#one
+{
+    clear: both;
+}
+.content
+{
+    width: 960px;
+    margin: 0 auto;
+}
+
+/*footer始まり*/
+footer
+{
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+   
+}
+footer small
+{
+    font-size: 15px;
+}
+/*footer終了*/
+
+/*index始まり*/
+#index h1
+{
+    font-size: 100px;
+    line-height: 1;
+    color: white;
+    margin-bottom: 50px;
+}
+
+#index p
+{
+    font-size: 20px;
+    color: white;
+}
+
+#index .content
+{
+    margin-top: 150px;
+}
+
+#index footer
+{
+    width: 960px;
+    margin: 150px auto 0 auto;
+    text-align: center;
+}
+
+#index
+{
+    background-image: url(../image/cafe.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/*index終了*/
+
+/*history始まり*/
+#history
+{
+    background-image: url(../image/cafe%20history.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+#wrap
+{
+    color: both;
+    background-color: white;
+    margin-top: 200px;
+    padding: 35px 0;
+}
+
+.main-center
+{
+    width: 940px;
+    margin: 0 auto;
+}
+
+h1
+{
+    font-size: 36px;
+    border-bottom: 2px solid #cccccc;
+}
+h2
+{
+    font-size: 24px;
+}
+.start:before
+{
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #9cb4a4;
+}
+.japan:before
+{
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #9cb4a4;
+}
+.first:before
+{
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #9cb4a4;
+}
+
+.end:before
+{
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #9cb4a4;
+}
+
+/*a kind of 始まり*/
+#kind
+{
+    background-image: url(../image/coffee%20cup.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+#three
+{
+    color: both;
+    background-color: white;
+    margin-top: 200px;
+    padding: 35px 0;
+}
+.main-center
+{
+    width: 940px;
+    margin: 0 auto;
+}
+.drip-esupuresso:before
+{
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #9cb4a4;
+}
+
+.drip-coffee:before
+{
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #9cb4a4;
+}
+
+.esupuresso-coffee:before
+{
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #9cb4a4;
+}
+
+#kind .drip-txt
+{
+    width: 540px;
+    float: right
+}
+
+#kind .esupuresso-txt
+{
+    width: 540px;
+    float: right
+}
+
+#kind .drip-kind th
+{
+    width:240px;
+    background-color:burlywood;
+    padding:8px 0;
+    border: 1px solid;
+}
+
+#kind .drip-kind td
+{
+    width:660px;
+    padding: 12px 0 12px 40px;
+    border: 1px solid;
+}
+
+#kind .esupuresso-kind th
+{
+    width:240px;
+    background-color:burlywood;
+    padding:8px 0;
+    border: 1px solid;
+}
+
+#kind .esupuresso-kind td
+{
+    width:660px;
+    padding: 12px 0 12px 40px;
+    border: 1px solid;
+}
+/*a kind of終了*/
+
+/*garnish始まり*/
+#garnish
+{
+    background-image:url(../image/cookie.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+#four
+{
+    color: both;
+    background-color: white;
+    margin-top: 200px;
+    padding: 35px 0;
+}
+
+.main-center
+{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.cookie:before
+{
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #9cb4a4;
+}
+
+.banana:before
+{
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #9cb4a4;
+}
+
+.annko:before
+{
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #9cb4a4;
+}
+
+#garnish .cook-txt
+{
+    width: 540px;
+    float: right
+}
+
+#garnish .banana-txt
+{
+    width: 540px;
+    float: right
+}
+
+#garnish .annko-txt
+{
+    width: 540px;
+    float: right
+}
